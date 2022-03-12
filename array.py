@@ -8,8 +8,8 @@ def has_33(nums):
     
     for digit in nums:
         
-        if nums[digit] == 3 :
-            return True
+        if nums[digit] == 3 and nums[digit+1] == 3 :
+           return True 
         else:
             return False
     
